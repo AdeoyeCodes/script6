@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> 
+   <meta name="description" content="JavaScript exercise">
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta name="author" content="Bolux">
+    <!-- Latest compiled and minified CSS -->
+     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <!-- Popper JS -->
+     <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+     <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+     <script src="https://kit.fontawesome.com/965b829563.js" crossorigin="anonymous"></script>
+  </head>
+  <style type="text/CSS">
+   h1 {
+    background-color: blanchedalmond;
+    color: green;
+    font-family: Impact;
+    border-radius: 17px;
+    padding: 10px 12px 11px;
+    margin: 50px 23px 25px;
+    }
+   body {
+    background-color: orange;
+    margin: 50px 23px 25px;
+    padding: 10px 12px 11px;
+    border-radius: 12px;
+    text-align: center;
+   }
+  </style>
+
+<body>
+    <div class="container">
+     <div class="row">
+      <div class="col-md-3"></div>
+       <div class="col-md-6">
+        <div class="form-group">
+        <h1><i class="fa-solid fa-circle-half-stroke"></i>  <b>AREA AND VOLUME OF SPHERE</b></h1>
+        <div class="form-group">
+         <input type="number" id="radiusInput" class="form-control" placeholder="Enter radius"/>
+        </div>
+        <div id="Sarea" style="display : none; padding: 2em; background: whitesmoke; border-radius: 13px;"></div>
+        <div id="Svolume" style="display : none; padding: 3em; background: pink; border-radius: 18px; "></div>
+        <div class="form-group">
+        <button class="btn btn-info" onclick="calculate()"><i class="fa fa-check"></i>&nbsp;CALCULATE DUO </button>
+        </div>
+     </div>
+    </div>
+   </body>
+  <script src="JS exercise 6.js"></script>
+  </html>
